@@ -83139,7 +83139,7 @@ s=p}while(true)switch(s){case 0:p=4
 g=t.N
 f=t.z
 s=7
-return A.t(m.a.Hc("http://10.0.2.2:3000/v1/auth/refresh",A.a7(["refreshToken",a],g,g),f),$async$qn)
+return A.t(m.a.Hc("https://api.arpan.delivery/v1/auth/refresh",A.a7(["refreshToken",a],g,g),f),$async$qn)
 case 7:l=a0
 p=9
 k=A.aHl(l.a)
@@ -83191,7 +83191,7 @@ var $async$vp=A.x(function(a0,a1){if(a0===1){o=a1
 s=p}while(true)switch(s){case 0:p=4
 k=t.N
 s=7
-return A.t(m.a.Hc("http://10.0.2.2:3000/v1/auth/login-with-phone",A.a7(["phone",a,"otp",b],k,k),t.z),$async$vp)
+return A.t(m.a.Hc("https://api.arpan.delivery/v1/auth/login-with-phone",A.a7(["phone",a,"otp",b],k,k),t.z),$async$vp)
 case 7:l=a1
 j=l.a
 i=new A.Bv(null,null)
@@ -83240,7 +83240,7 @@ var $async$vx=A.x(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 j=t.N
 s=7
-return A.t(m.a.Hc("http://10.0.2.2:3000/v1/auth/send-otp",A.a7(["phone",a,"signature",b],j,j),t.z),$async$vx)
+return A.t(m.a.Hc("https://api.arpan.delivery/v1/auth/send-otp",A.a7(["phone",a,"signature",b],j,j),t.z),$async$vx)
 case 7:l=d
 j=l.a
 i=new A.zI(null,null)
@@ -83476,7 +83476,7 @@ return new A.qE(s.a,s.b,s.c,s.e,s.d,s.f,null)},
 $S:541}
 A.aoo.prototype={
 $2(a,b){var s=this.a
-return s.agO("http://10.0.2.2:3000/public/"+J.aD(s.cx[b].x),J.aD(s.cx[b].e),J.aD(s.cx[b].z),new A.aon(s,b))},
+return s.agO("https://api.arpan.delivery/public/"+J.aD(s.cx[b].x),J.aD(s.cx[b].e),J.aD(s.cx[b].z),new A.aon(s,b))},
 $S:542}
 A.aon.prototype={
 $0(){var s=this.a,r=this.b
@@ -83497,7 +83497,7 @@ $S:33}
 A.axm.prototype={
 $1(a){var s=A.bM(8),r=a.b
 r.toString
-return new A.N(B.oH,A.L2(s,A.pa(new A.axk(),B.aH,null,"http://10.0.2.2:3000/public/"+r,new A.axl(),null)),null)},
+return new A.N(B.oH,A.L2(s,A.pa(new A.axk(),B.aH,null,"https://api.arpan.delivery/public/"+r,new A.axl(),null)),null)},
 $S:546}
 A.axl.prototype={
 $2(a,b){return A.dt("assets/images/transparent.png",null,null,null)},
@@ -83714,7 +83714,7 @@ vn(){var s=0,r=A.D(t.bQ),q,p=2,o,n=[],m=this,l,k,j,i,h
 var $async$vn=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.t(m.a.zV(0,"http://10.0.2.2:3000/v1/exposed-routes/home-data",t.z),$async$vn)
+return A.t(m.a.zV(0,"https://api.arpan.delivery/v1/exposed-routes/home-data",t.z),$async$vn)
 case 7:l=b
 if(l.d===200){j=A.aT1(l.a)
 q=j
@@ -83742,7 +83742,7 @@ lk(){var s=0,r=A.D(t.oV),q,p=2,o,n=[],m=this,l,k,j,i,h,g
 var $async$lk=A.x(function(a,b){if(a===1){o=b
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.t(m.a.zV(0,"http://10.0.2.2:3000/v1/exposed-routes/locations-main",t.z),$async$lk)
+return A.t(m.a.zV(0,"https://api.arpan.delivery/v1/exposed-routes/locations-main",t.z),$async$lk)
 case 7:l=b
 if(l.d===200)if(l.a!=null){k=J.hx(t.j.a(l.a),new A.a7T(),t.o).cM(0)
 q=k
@@ -83773,7 +83773,7 @@ VR(a){var s=0,r=A.D(t.IM),q,p=2,o,n=[],m=this,l,k,j,i,h
 var $async$vu=A.x(function(b,c){if(b===1){o=c
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.t(m.a.zV(0,"http://10.0.2.2:3000/v1/exposed-routes/products/"+a,t.z),$async$vu)
+return A.t(m.a.zV(0,"https://api.arpan.delivery/v1/exposed-routes/products/"+a,t.z),$async$vu)
 case 7:l=c
 if(l.d===200){j=A.aUk(l.a)
 q=j
@@ -83870,7 +83870,7 @@ gkB(){var s=this.d
 return s===$?this.d=this.a.c.cx:s},
 gTT(){var s=this.e
 return s===$?this.e=this.a.c.fx:s},
-H(a,b){var s,r=this,q=null,p=t.p,o=A.bk(A.b([A.d4(A.bz(A.b([A.U(J.aD(r.a.c.fr),q,q,q,q,q,q,q),A.aO(A.U(J.aD(r.a.c.db),q,q,q,q,q,q,q),q,200)],p),B.cm,B.A,B.n)),new A.N(B.EJ,A.L2(A.bM(10),A.E0(A.pa(new A.arE(),q,60,"http://10.0.2.2:3000/public/"+J.aD(r.a.c.dx),new A.arF(),60),B.xN)),q)],p),B.o,B.aY,B.n),n=r.gTT(),m=r.gkB(),l=r.gTT()
+H(a,b){var s,r=this,q=null,p=t.p,o=A.bk(A.b([A.d4(A.bz(A.b([A.U(J.aD(r.a.c.fr),q,q,q,q,q,q,q),A.aO(A.U(J.aD(r.a.c.db),q,q,q,q,q,q,q),q,200)],p),B.cm,B.A,B.n)),new A.N(B.EJ,A.L2(A.bM(10),A.E0(A.pa(new A.arE(),q,60,"https://api.arpan.delivery/public/"+J.aD(r.a.c.dx),new A.arF(),60),B.xN)),q)],p),B.o,B.aY,B.n),n=r.gTT(),m=r.gkB(),l=r.gTT()
 l.toString
 s=r.gkB()
 s.toString
@@ -84034,7 +84034,7 @@ a3J(a){var s=null
 return new A.N(B.Q,A.co(A.dS(!1,s,!0,B.Mq,s,!0,s,s,s,s,s,s,s,s,s,new A.a1O(this,a),s,s,s),B.G,s,s,B.cV),s)},
 a3N(a){var s=null
 if(a==null)return A.ab(s,s,B.i,s,s,s,s,s,s,s,s,s,s)
-return A.L2(A.bM(10),A.E0(A.pa(new A.a1P(),s,76,"http://10.0.2.2:3000/public/"+a,new A.a1Q(),76),B.Oz))}}
+return A.L2(A.bM(10),A.E0(A.pa(new A.a1P(),s,76,"https://api.arpan.delivery/public/"+a,new A.a1Q(),76),B.Oz))}}
 A.a1R.prototype={
 $1(a){var s,r,q=null,p=this.a,o=p.c.d[a],n=this.b,m=o.d
 m.toString
@@ -84072,7 +84072,7 @@ A.acW.prototype={
 $1(a){return A.aH6(a.b)},
 $S:557}
 A.ad1.prototype={
-$2(a,b){var s,r,q=null,p="http://10.0.2.2:3000/public/",o=B.f.E(1/0,b.c,b.d),n=a.F(t.w).f,m=this.a
+$2(a,b){var s,r,q=null,p="https://api.arpan.delivery/public/",o=B.f.E(1/0,b.c,b.d),n=a.F(t.w).f,m=this.a
 $.L.p2$.push(new A.acX(m,n.r.b+56+48,o))
 n=t.p
 s=A.d4(A.fl(B.ba,A.b([A.pa(new A.acY(),B.aH,150,p+m.y2,new A.acZ(),q)],n),B.OP,q,q))
@@ -84816,7 +84816,7 @@ h.k(0,i,A.b([k],m))}}return A.B(null,r)}})
 return A.C($async$nO,r)},
 ar(){this.aO()
 this.nO()},
-H(a2,a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0="http://10.0.2.2:3000/public/",a1=b.a.c.w
+H(a2,a3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b=this,a=null,a0="https://api.arpan.delivery/public/",a1=b.a.c.w
 a1.toString
 s=A.aJK(a1)
 a1=b.a.c
@@ -85670,7 +85670,7 @@ J.bL(k,"authorization","Bearer "+A.d(a))
 J.bL(k,"Content-Type","application/json")
 j=A.m_(k)
 s=7
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/consumers/validate-promo",l,j,c),$async$v8)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/consumers/validate-promo",l,j,c),$async$v8)
 case 7:i=a3
 if(i.d===200){c=i.a
 g=new A.vk(null,null)
@@ -85732,7 +85732,7 @@ J.bL(l,"authorization","Bearer "+A.d(c))
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.zW(0,"http://10.0.2.2:3000/v1/consumers/get-orders",k,e),$async$vq)
+return A.t(m.a.zW(0,"https://api.arpan.delivery/v1/consumers/get-orders",k,e),$async$vq)
 case 7:j=a0
 if(j.d===200)if(j.a!=null){i=J.hx(t.j.a(j.a),new A.abR(),t.Yg).cM(0)
 q=i
@@ -85771,7 +85771,7 @@ J.bL(l,"authorization","Bearer "+A.d(d))
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/consumers/place-order",a,k,f),$async$zp)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/consumers/place-order",a,k,f),$async$zp)
 case 7:j=a0
 if(j.d===200){f=J.aD(J.av(j.a,"id"))
 q=f
@@ -85832,7 +85832,7 @@ case 5:s=2
 break
 case 8:case 4:p=11
 s=14
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/consumers/place-custom-order",a4,l,b),$async$ms)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/consumers/place-custom-order",a4,l,b),$async$ms)
 case 14:g=a7
 if(g.d===200){b=J.aD(J.av(g.a,"id"))
 q=b
@@ -86256,7 +86256,7 @@ else{s=A.ab(k,k,B.i,k,k,k,k,10,k,k,k,k,k)
 r=A.bM(40)
 q=l.e
 if(q==null){q=l.f
-q=q===""?B.ea:A.aEh(new A.v1("http://10.0.2.2:3000/public/"+q))}else q=A.aEh(new A.lz(A.uh(A.a(q.c,"_path")),1))
+q=q===""?B.ea:A.aEh(new A.v1("https://api.arpan.delivery/public/"+q))}else q=A.aEh(new A.lz(A.uh(A.a(q.c,"_path")),1))
 r=A.aO(A.co(A.dS(!1,k,!0,q,k,!0,k,k,k,k,k,k,k,k,k,new A.arX(l),k,k,k),B.G,0,B.U,new A.bj(r,B.v)),80,80)
 q=l.r
 p=A.cf(q,B.dm,!1,k,1,new A.arY(l),B.L,k)
@@ -86320,7 +86320,7 @@ J.bL(l,"authorization","Bearer "+A.d(d))
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/consumers/provide-feedback",a,k,f),$async$vO)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/consumers/provide-feedback",a,k,f),$async$vO)
 case 7:j=a0
 if(j.d===200){f=J.aD(j.a)
 q=f
@@ -86356,7 +86356,7 @@ J.bL(l,"authorization","Bearer "+A.d(d))
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.zW(0,"http://10.0.2.2:3000/v1/consumers/get-profile",k,f),$async$vv)
+return A.t(m.a.zW(0,"https://api.arpan.delivery/v1/consumers/get-profile",k,f),$async$vv)
 case 7:j=b
 if(j.d===200){f=A.aF9(j.a,h,f)
 q=f
@@ -86419,7 +86419,7 @@ case 5:s=2
 break
 case 8:case 4:p=11
 s=14
-return A.t(m.a.uP(0,"http://10.0.2.2:3000/v1/consumers/update-profile",null,a5,null,null,A.azc("PATCH",l),null,a),$async$v5)
+return A.t(m.a.uP(0,"https://api.arpan.delivery/v1/consumers/update-profile",null,a5,null,null,A.azc("PATCH",l),null,a),$async$v5)
 case 14:f=a8
 if(f.d===200){a=f.a
 q=a
@@ -86456,7 +86456,7 @@ J.bL(l,"authorization","Bearer "+A.d(d))
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/users/registration-tokens",a,k,f),$async$xp)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/users/registration-tokens",a,k,f),$async$xp)
 case 7:j=a0
 if(j.d===200){q="SUCCESS"
 s=1
@@ -86489,7 +86489,7 @@ J.bL(l,"authorization","Bearer "+b)
 J.bL(l,"Content-Type","application/json")
 k=A.m_(l)
 s=7
-return A.t(m.a.nY("http://10.0.2.2:3000/v1/auth/logout",a,k,t.z),$async$z2)
+return A.t(m.a.nY("https://api.arpan.delivery/v1/auth/logout",a,k,t.z),$async$z2)
 case 7:j=d
 if(j.d===200){A.oP().$1("LOGGED OUT")
 q="SUCCESS"
